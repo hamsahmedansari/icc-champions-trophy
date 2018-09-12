@@ -1,0 +1,402 @@
+section
+{
+	position:relative;
+	width:100%;
+	padding-top:95px;	
+}
+.top_main
+{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: url(../images/cover/Sri_Lanka_1.jpg) no-repeat;
+	background-size: 100% 100% ;
+}
+.top_black
+{
+	position:absolute;
+	width:100%;
+	height:100%;    
+	background: linear-gradient(#000, rgba(0,0,0,0), #000);
+}
+.team_logo_main
+{
+	position: absolute;
+    width: 98%;
+    height: 50%;
+    bottom: 10%;
+    left: 2%;	
+}
+.left_logo
+{
+	position:relative;
+	width:200px;
+	height:100%;
+	float:left;
+	background-color:#fff;
+}
+.right_logo
+{
+	position:relative;
+	width:50%;
+	height:100%;	
+	float:left;	
+}
+.sl_logos
+{
+	position: absolute;
+    width: 90%;
+    background-color: #203e87;
+    background-image: url(../images/flag/SL.png);
+    background-size: 100% 100%;
+    height: 90%;
+    left: 5%;
+    top: 5%;
+}
+.inner_logo_sl
+{
+	position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/flag/SL%20copy.png);
+    background-repeat: no-repeat;
+    background-size: 50% 50%;
+    background-position: 50% 20%;
+	animation:pak ease-in-out 7s infinite;
+}
+.right_logo h1
+{
+	    font-size: 50px;
+    color: #fff;
+    font-weight: bolder;
+    padding-left: 4%;
+}
+.right_logo p a
+{
+
+    padding-left: 05%;
+    font-size: 14px;
+    color: #fff;	
+}
+.right_logo p a:hover
+{
+	text-decoration:underline;
+}
+@keyframes pak
+{
+	0%{
+		transform:rotateY(0deg);	
+	}
+	50%
+	{
+		transform:rotateY(180deg);	
+	}
+	100%
+	{
+		transform:rotateY(360deg);	
+	}
+}
+.squat_main
+{
+	position:relative;
+	width:100%;
+}
+.heading_squat
+{
+	position:relative;
+	width:100%;
+	height:100px;
+}
+.heading_squat h2
+{
+
+    font-size: 30px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #172650;
+    padding-left: 26px;
+    padding-top: 21px;
+}
+.main_player
+{
+	position:relative;
+	width:221px;
+    background-color: #5c7fbd;
+	height:285px;
+	transition-duration:1s;
+	cursor:pointer;
+    display: inline-block;
+	margin-top:5px;
+}
+.main_player:hover
+{
+   background-color: #3a5484;
+	
+}
+.main_player .top
+{
+	position:relative;
+	width:100%;
+	height:50.3%;	
+}
+.main_player .middel
+{
+	position:relative;
+	width:100%;
+	height:30.3%;	
+}
+.main_player .bottom
+{
+	position:relative;
+	width:100%;
+	height:19.3%;	
+}
+.main_player .top .img_main
+{
+
+    position: absolute;
+    width: 60%;
+    height: 93%;
+    left: 20%;
+    top: 4%;
+    border-radius: 71px;
+    overflow: hidden;	
+    background-color: #fff;
+}
+.main_player .top .img_main img
+{
+    width: 137px;
+    margin-left: 10px;
+}
+.cri_1
+{	width: 35px;
+    height: 24px;
+    position: absolute;
+    background: #000;
+    bottom: 0px;
+    left: 0px;
+    border-radius: 28px;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    line-height: 2;
+    background: #3fbf80;
+}
+.cri_2
+{
+
+    width: 35px;
+    height: 24px;
+    position: absolute;
+    background: #000;
+    bottom: 0px;
+    right: 0px;
+    border-radius: 28px;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    line-height: 2;	
+    background: #f9c000;
+}
+.player_name p
+{
+
+    color: #fff;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;	
+}
+.player_stats
+{
+
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    bottom: 0px;
+}
+.match
+{
+
+    width: 30%;
+    height: 80%;
+    top: 10%;
+    position: relative;
+	display:inline-block;	
+    margin-left: 2.5%;
+}
+.run
+{
+
+    width: 30%;
+    height: 80%;
+    top: 10%;
+    position: relative;
+    border-left: 1px solid #fff;
+    display: inline-block;
+    border-right: 1px solid #fff;	
+}
+.wick
+{
+
+    width: 30%;
+    height: 80%;
+    top: 10%;
+    position: relative;
+	display:inline-block;	
+}
+.match p,.run p,.wick p
+{
+	font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;	
+	color:#fff;
+}
+.readmore
+{
+    position: absolute;
+    width: 80%;
+    height: 70%;
+    left: 10%;
+    top: 15%;
+    text-align: center;
+    line-height: 2.5;	
+    background: #fff;
+    color: #172650;
+}
+.images_main,.video_main,.icc_histry
+{
+
+    position: relative;
+    width: 100%;
+    margin-top: 13px;	
+    border-top: 1px solid #ccc;
+}
+.heading_images h2
+{font-size: 30px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #172650;
+    padding-left: 26px;
+    padding-top: 21px;
+}
+.img,.video
+{
+
+    width: 200px;
+    margin-left: 18px;
+    margin-top: 10px;	
+}
+.icc_main
+{
+
+    position: relative;
+    width: 95%;
+    height: 80%;
+    top: 2.5%;
+    left: 2.5%;	
+}
+.icc_main ul li {
+    list-style: none;
+    display: inline-block;
+    width: 24%;
+    text-align: right;
+    color: #4c4a4a;
+}.line {
+    width: 91%;
+    height: 303px;
+    border-right: 1px dashed #ccc;
+}.line_c {    
+    position: absolute;
+    width: 100%;
+    height: 38px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: -webkit-linear-gradient(right,#1f253c 0,#303a5e 10rem);
+}
+.line_1
+{
+    top: 10%;
+}
+.line_2
+{
+    top: 22%;
+	
+}
+.line_3
+{
+    top: 34%;
+	
+	
+}
+.line_4
+{
+	
+    top: 46%;
+	
+}
+.line_5
+{
+	
+    top: 58%;
+	
+}
+.line_6
+{
+	
+    top: 70%;
+	
+}
+.line_7
+{
+	
+    top: 82%;
+	
+}.group {
+    width: 25%;
+}.semi {
+    width: 50%;
+}.runn {
+    width: 73%;
+}.winer {
+    width: 97%;
+}
+.img_100
+{
+    right: 6px;
+    position: absolute;
+    top: 10%;
+}samp.left {
+    text-align: left;
+    padding-left: 10px;
+    line-height: 2.5;
+    color: #fff;
+}
+.hover
+{
+	position:fixed;
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,.8);
+	top:0px;
+	z-index:2000;	
+}
+.co1
+{
+
+    position: absolute;
+    width: 85%;
+	left:7.5%;
+    height: 100%;	
+}.block {
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    left: 10%;
+    top: 10%;
+}
+.over
+{
+	position:absolute;
+	width:100%;
+	height:100%;	
+}

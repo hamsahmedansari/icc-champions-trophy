@@ -1,0 +1,405 @@
+@media only screen and (max-width: 1310px){
+.team_name_2 {
+    right: 23%;
+}
+.team_name_1 {
+    left: 24%;
+}
+}
+@media only screen and (max-width: 1310px){
+.team_name_2 {
+    right: 22%;
+}
+.team_name_1 {
+    left: 24%;
+}
+.top_team_1 {
+    left: 13%;
+}
+.top_team_2 {
+    right: 12%;
+}.status_main {
+    margin-top: 135px;
+}footer {
+    margin-top: 52%;
+}
+}
+@media only screen and (max-width: 1240px){
+/*.footer {
+    margin-top: 50%;
+}*/
+.icc_dec {
+    font-size: 14px;
+}
+}
+@media only screen and (max-width: 1200px){
+.ball {
+    width: 43px;
+    height: 43px;
+}.player_img img {
+    margin-left: 95px;
+}.nam {
+    font-size: 11px;
+}
+}
+@media only screen and (max-width: 1150px){
+.nam {
+    font-size: 13px;
+}.ball {
+    width: 40px;
+    height: 40px;
+}.news_top_right_bottom .aa {
+    font-size: 10px;
+}.news_top_left_right .b {
+    font-size: 15px;
+}.news_top_left_right .a .aa {
+    font-size: 9px;
+}.news_top_left_right .c {
+    font-size: 10px;
+}.news_top_right_bottom .b {
+    font-size: 11px;
+}.news_main {
+    height: 840px;
+}.news_top {
+    height: 33%;
+    position: relative;
+}.news_top_left {
+    width: 100%;
+}.news_top_right {
+    display: none;
+}.news_top_left_right .b {
+    font-size: 20px;
+}.news_top_left_right .c {
+    font-size: 12px;
+}.news_bottom {
+    position: relative;
+    width: 96%;
+    height: 33%;
+    bottom:inherit;
+    margin-top: 38px;
+}.news_bottom_right {
+    width: 50%;
+}.news_top_right_bottom img {
+    width: 15px;
+}.news_top_right_bottom .aa {
+    font-size: 16px;
+}.news_top_right_bottom .b {
+    font-size: 14px;
+}.videos_main {
+    width: 98%;
+    height: 1274px;
+}.videos_top {
+    width: 100%;
+    height: 80px;
+    top: 0px;
+}.videos_middle {
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    top: 80px;
+    padding-left: 10px;
+}.videos_bottom {
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    bottom: 0px;
+    padding-left: 10px;
+}.video_1 {
+    position: relative;
+    width: 50%;
+    height: 70%;
+}.player_11 {
+    width: 45%;
+}.status_main {
+    height: 859px;
+}.player_img_under {
+    background-repeat: no-repeat;
+    background-size: 100%;
+}.player_img img {
+     margin-left: 47%;
+}.more_images_main {
+    height: 519px;
+}footer {
+    margin-top: 230%;
+}
+}
+@media only screen and (max-width: 1060px){
+footer {
+    margin-top: 240%;
+}.icc_main {
+    height: 370px;
+}
+}
+@media only screen and (max-width: 1000px){
+.team_vs {
+    margin-top: 35%;
+}
+.top_team {
+    position: absolute;
+    width: 38%;
+    height: 50%;
+}
+.top_team_2 {
+    right: 8%;
+}
+.top_team_1 {
+    left: 7%;
+}.ball {
+    width: 37px;
+    height: 37px;
+}.live_score_header_score_top_team_2 {
+    right: 5%;
+}.live_score_header_score_top_team_1 {
+    left: 5%;
+}footer {
+    margin-top: 250%;
+}
+}
+@media only screen and (max-width: 950px){
+footer {
+    margin-top: 260%;
+}
+}
+@media only screen and (max-width: 936px){
+.team_vs {
+    margin-top: 37%;
+}
+.top_team {
+    position: absolute;
+    width: 42%;
+    height: 50%;
+}
+.top_team_2 {
+    right: 8%;
+}
+.top_team_1 {
+    left: 7%;
+}.live_score_header_score_top_team_2 {
+    right: 0%;
+    width: 85px;
+    height: 85px;
+}.live_score_header_score_top_team_1 {
+    left: 0%;
+    width: 85px;
+    height: 85px;
+}
+}
+@media only screen and (max-width: 910px){
+footer {
+    margin-top: 300%;
+}
+}
+@media only screen and (max-width: 900px){
+.secotion_bottom_right {
+    margin-right: inherit; 
+	width:29%;
+}.pos {
+    font-size: 9px;
+}
+}
+@media only screen and (max-width: 825px){
+.team_name_1 {
+    left: 16%;
+}.team_name_2 {
+    right: 15%;
+}.top_team_1 {
+    left: 2%;
+}.top_team_2 {
+    right: 2%;
+}.live_score_header_main {
+    width: 100%;
+    height: 600px;
+}.live_score_header_team_1 {
+	position:relative;
+    width: 100%;
+    height: 30%;
+}.player_1_main {
+    height: 100%;
+     top: inherit; 
+}.player_score_1, .player_score_2 {
+    height: 29%;
+}.player_2 {
+    left: -8%;
+}.player_1 {
+    right: -4%;
+}.player_score_1 {
+    left: 5%;
+}.player_score_2 {
+    right: 5%;
+}.live_score_header_score {
+     left: inherit;
+    position: relative;
+    width: 100%;
+    height: 33%;
+}.live_score_header_score_top_team_2 {
+    right: 5%;
+    width: 100px;
+    height: 100px;
+    top: 0%;
+}.live_score_header_score_top_team_1 {
+    left: 5%;
+    width: 100px;
+    height: 100px;
+    top: 0%;
+}.live_score_header_score_top_vs {
+    font-size: 44px;
+}.live_score_header_score_bottom {
+    line-height: 2;
+    font-size: 36px;
+    height: 39%;
+    background-color: #c5a478;
+    top: 13px;
+}.live_score_header_team_2 {
+    right:inherit;
+    position: absolute;
+    width: 100%;
+    height: 31.4%;
+    z-index: 1;
+    bottom: 0px;
+}.live_score_header_team_2_bottom_player {
+    width: 34%;
+    height: 102%;
+}
+}
+@media only screen and (max-width: 830px){
+footer {
+    margin-top: 350%;
+}
+}
+@media only screen and (max-width: 800px){
+footer {
+    margin-top: 957%;
+}.secotion_bottom_left {
+    width: 100%;
+     float: none; 
+}.secotion_bottom_right {
+    width: 100%; 
+    margin-top: 115px;
+}.standing_main {
+    height: 513px;
+}.bottom_standing {
+    height: 454px;
+}.icc_main {
+    height: 770px;
+}.schare_img_1 {
+    background-size: 40% 40%;
+}
+}
+@media only screen and (max-width: 770px){
+footer {
+    margin-top: 1200%;
+}
+}
+@media only screen and (max-width: 648px){
+.team_name_1 {
+    left: 10%;
+}.team_name_2 {
+    right: 10%;
+}.team_vs {
+    margin-top: 49%;
+}.top_team_1 {
+    left: -6%;
+}.top_team_2 {
+    right: -4%;
+}.top_team {
+    width: 50%;
+}
+}
+@media only screen and (max-width: 629px){
+footer {
+    margin-top: 1270%;
+}
+}
+@media only screen and (max-width: 600px){
+footer {
+    margin-top: 1230%;
+}
+}
+@media only screen and (max-width: 600px){
+footer {
+    margin-top: 1300%;
+}
+}
+@media only screen and (max-width: 577px){
+footer {
+    margin-top: 1350%;
+}
+}
+@media only screen and (max-width: 555px){
+footer {
+    margin-top: 1450%;
+}
+}
+@media only screen and (max-width: 520px){
+footer {
+    margin-top: 1500%;
+}
+}
+@media only screen and (max-width: 500px){
+.team_name {
+    width: 150px;
+    height: 75%;
+}
+.pak_team_under {
+    width: 60px;
+    height: 60px;
+    margin-left: 47px;
+    margin-top: 13px;
+}.ban_team_under {
+    width: 90px;
+    height: 100px;
+    margin-left: 31px;
+    margin-top: 14px;
+}.aus_team_under {
+    width: 58px;
+    height: 92px;
+    margin-left: 47px;
+    margin-top: 6px;
+}.sl_team_under {
+    width: 90px;
+    height: 90px;
+    margin-left: 34px;
+    margin-top: 2px;
+}.sa_team_under {
+    width: 100px;
+    height: 100px;
+    margin-left: 24px;
+    margin-top: -2px;
+}.top_team {
+    height: 41%;
+}.team_vs {
+    margin-top: 71%;
+}.team_name_1,.team_name_2 {
+    top: 76px;
+}footer {
+    margin-top: 1650%;
+}
+}
+@media only screen and (max-width: 500px){
+.team_vs {
+    font-size: 56px;
+}.team_vs {
+    margin-top: 90%;
+}.team_name_2 {
+    right: 4%;
+}.team_name_1 {
+    left: 4%;
+}.top_team {
+    height: 37%;
+}
+}
+@media only screen and (max-width: 480px){
+footer {
+    margin-top: 1700%;
+}
+}
+@media only screen and (max-width: 450px){
+footer {
+    margin-top: 1750%;
+}
+}
+@media only screen and (max-width: 420px){
+footer {
+    margin-top: 1850%;
+}
+}

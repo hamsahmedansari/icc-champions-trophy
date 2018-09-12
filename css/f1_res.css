@@ -1,0 +1,82 @@
+@media only screen and (max-width: 1150px){
+.team_name_2 {
+    right: 20%;
+}.team_name_1 {
+    left: 20%;
+}
+}
+@media only screen and (max-width: 950px){
+.team_name_2 {
+    right: 15%;
+}.team_name_1 {
+    left: 15%;
+}
+}
+@media only screen and (max-width: 850px){
+.a2 {
+    width: 60%;
+    margin-left: 20%;
+}.result_left, .result_right {
+    width: 100%;
+    float: none;
+}
+}
+@media only screen and (max-width: 700px)
+{
+.a2 {
+    width: 90%;
+    margin-left: 5%;
+}
+}
+@media only screen and (max-width: 750px){
+.team_name_2 {
+    right: 10%;
+}.team_name_1 {
+    left: 10%;
+}
+}
+@media only screen and (max-width: 650px){
+.team_name_2 {
+    right: 0%;
+}.team_name_1 {
+    left: 0%;
+}
+}
+@media only screen and (max-width: 500px){
+.aus_team_under {
+    width: 68px;
+    height: 102px;
+}.ban_team_under {
+    width: 109px;
+    height: 120px;
+}.pak_team_under {
+    width: 67px;
+    height: 75px;
+}.sa_team_under {
+    width: 100px;
+    height: 101px;
+}.sl_team_under {
+    position: relative;
+    width: 100px;
+    height: 90px;
+}.team_name {
+    width: 182px;
+    height: 85%;
+}.team_vs {
+    position: absolute;
+    width: 0px;
+    height: inherit;
+    color: #fff;
+    left: 42%;
+    font-family: vs;
+    font-size: 77px;
+    text-align: center;
+    margin-top: 11%;
+}.a1 {
+    font-size: 17px;
+}.a2 {
+    font-size: 13px;
+}.wkt,.cpt {
+    font-size: 9px;
+}
+}

@@ -1,0 +1,11 @@
+Dark blue
+#172650
+			Font 
+dark blue
+#001036
+
+Brown
+#c5a478
+
+white
+#FFF

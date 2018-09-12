@@ -1,0 +1,531 @@
+section
+{
+	position:relative;
+	width:100%;
+	padding-top:100px;	
+}
+.images_main
+{
+	position:relative;
+	width:100%;
+	height:400px;	
+}
+.section_top
+{
+	position:relative;
+	width:100%;
+	height:100%;
+	z-index:999;  }
+.backgund_silder_uper
+{
+	transition-duration:1s;
+	position:absolute;
+	width:100%;
+	height:100%;
+	overflow:hidden;
+}
+.background_slider_main
+{
+	position:absolute;
+	width:400%;
+	height:100%;
+	transition-duration:1s;	
+}
+.slider
+{
+	position:relative;
+	width:24.9%;
+	height:100%;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	background-attachment:fixed;
+	display:inline-block;
+}
+.slider_1
+{
+	background-image:url(../images/ground/Oval_1.jpg);	
+}
+.slider_2
+{
+	background-image:url(../images/ground/Cardiff_2.jpg);	
+}
+.slider_3
+{
+	background-image:url(../images/ground/Edgbaston_4.jpg);	
+}
+.slider_4
+{
+	background-image:url(../images/ground/4760583e619de73892e5af66eeb1ca0b.jpg);	
+}
+.section_top_main
+{
+	position:relative;
+	width:100%;
+	height:100%;
+	background-color:rgba(0,16,54,.65);	
+}
+.top_team
+{
+	position:absolute;
+	width:30%;
+	height:50%;
+	
+}
+.top_team_1
+{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 81% 99%;
+    transform-origin: center;
+    transform: rotateY(180deg);
+	bottom:0px;
+	left:15%;	
+}
+.top_team_2
+{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 81% 99%;
+    transform-origin: center;
+	bottom:0px;
+	right:15%;	
+}
+.pak_cap
+{
+	background-image:url(../images/team/pak.png)	
+}
+.ind_cap
+{
+	background-image:url(../images/team/ind.png)	
+}
+.ban_cap
+{
+	background-image:url(../images/team/ban.png)	
+}
+.nez_cap
+{
+	background-image:url(../images/team/nez.png)	
+}
+.aus_cap
+{
+	background-image:url(../images/team/aus.png)	
+}
+.eng_cap
+{
+	background-image:url(../images/team/eng.png)	
+}
+.sut_cap
+{
+	background-image:url(../images/team/sut.png)	
+}
+.sri_cap
+{
+	background-image:url(../images/team/sri.png)	
+}
+.team_name
+{
+	position:absolute;
+    width: 200px;
+	height:100%;
+    font-size: 60px;
+    text-align: center;
+    color: #fff;
+}
+.team_name_1
+{
+	top:10px;
+	left:26%;	
+}
+.team_name_2
+{
+	top:10px;
+	right:26%;	
+}
+.team_vs {
+    position: absolute;
+    width: 24%;
+    height: 100%;
+    color: #fff;
+    left: 39%;
+    font-family: vs;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 4%;
+}
+.top_team_name_top
+{
+	position:relative;
+	width:100%;
+    height: 185px;
+    top: 72px;
+}
+.pak_team_top {
+    background-image: url(../images/flag/PAK.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 89% 100%;
+}
+.pak_team_under
+{
+	position:relative;
+    width: 90px;
+    height: 90px;
+    background-image: url(../images/flag/PAK%20copy.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 89% 100%;
+    margin-left: 58px;
+    margin-top: 10px;
+	animation-name:pak;
+	animation-iteration-count:infinite;
+	animation-duration:10s;
+}
+@keyframes pak
+{
+	0%{
+		transform:rotateY(0deg);	
+	}
+	50%
+	{
+		transform:rotateY(180deg);	
+	}
+	100%
+	{
+		transform:rotateY(360deg);	
+	}
+}
+.ind_team_top
+{
+	background-image:url(../images/flag/IND.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 89% 100%;
+	animation-name:ind;
+	animation-iteration-count:infinite;
+	animation-duration:10s;
+}
+@keyframes ind
+{
+	0%{
+		transform:rotate(0deg);	
+	}
+	50%
+	{
+		transform:rotate(180deg);	
+	}
+	100%
+	{
+		transform:rotate(360deg);	
+	}
+}
+.aus_team_top
+{
+	background-image:url(../images/flag/AUS.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 89% 100%;
+}
+.aus_team_under
+{
+
+	position:relative;
+    width: 100px;
+    height: 115px;
+    background-image: url(../images/flag/AUS%20copy.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 89% 100%;
+    margin-left: 58px;
+    margin-top: 10px;
+	animation-name:pak;
+	animation-iteration-count:infinite;
+	animation-duration:10s;
+}
+.ban_team_top
+{
+	background-image:url(../images/flag/BAN.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 89% 100%;
+}
+.ban_team_under
+{
+    position: relative;
+    width: 127px;
+    height: 138px;
+    background-image: url(../images/flag/BAN%20copy.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 89% 100%;
+    margin-left: 39px;
+    margin-top: 10px;
+    animation-name: pak; 
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+}
+.eng_team_top {
+    background-image: url(../images/flag/ENG.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 45% 100%;
+    animation-name: pak;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+}
+.sa_team_top
+{
+	background-image:url(../images/flag/SA.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 89% 100%;
+}
+.sa_team_under
+{
+    position: relative;
+    width: 127px;
+    height: 120px;
+    background-image: url(../images/flag/SA%20copy.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 89% 100%;
+    margin-left: 39px;
+    margin-top: 10px;
+    animation-name: pak; 
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+}
+.sl_team_top
+{
+	background-image:url(../images/flag/SL.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 89% 100%;
+}
+.sl_team_under
+{
+    position: relative;
+    width: 127px;
+    height: 100px;
+    background-image: url(../images/flag/SL%20copy.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 89% 100%;
+    margin-left: 39px;
+    margin-top: 10px;
+    animation-name: pak; 
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+}
+.nz_team_top
+{
+	background-image:url(../images/flag/NZ.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 86% 55%;
+    animation-name: pak; 
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+}
+.move_in_left
+{
+	animation-name:left;
+	animation-duration:.5s;
+	animation-timing-function:ease-in-out;	
+	
+}
+@keyframes left
+{
+	0%{
+		left:-20%;	
+	}
+	75%
+	{
+		left:25%;
+	}
+	100%{
+		left:15%;
+	}
+}
+.move_in_right
+{
+	animation-name:right;
+	animation-duration:.5s;
+	animation-timing-function:ease-in-out;	
+}
+@keyframes right
+{
+	0%{
+		right:-20%;	
+	}
+	75%
+	{
+		right:25%;
+	}
+	100%
+	{
+		right: 15%;	
+	}
+}
+.team_heading
+{
+position: relative;
+    width: 100%;
+    height: 100px;
+}
+.team_main
+{
+    position: relative;
+    width: 100%;
+}
+.team_left,.team_right
+{
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+.team_bottom
+{
+	position:relative;
+	width:100%;
+	height:500px;	
+}
+.team_heading h2
+{
+
+    font-size: 28px;
+    text-transform: uppercase;
+    padding: 30px;
+    text-align: center;	
+}
+.a1
+{
+	text-align:center;
+	font-size: 20px;
+    font-weight: bolder;
+    color: #192853;	
+}
+.a1 img
+{
+    width: 21px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.a2  {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 100;
+    color: #757272;
+    height: 32px;
+    border-top: 1px solid #ccc;
+    width: 50%;
+    margin-left: 27%;
+}
+.a2 a
+{
+    color: #757272;
+	
+}
+.a1 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #192853;
+    margin-bottom: 28px;
+}
+.a2 a:hover
+{
+	color:#000;
+	font-weight:bolder;	
+}
+.cpt
+{
+    border-radius: 21px;
+    width: 20px;
+    height: 20px;
+    background: #3fbf80;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+	color:#fff;
+}
+.wkt
+{
+	color:#fff;
+    border-radius: 21px;
+    width: 20px;
+    height: 20px;
+    background: #f9c000;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.result_match h2 {
+    font-size: 24px;
+    position: absolute;
+    bottom: -44%;
+    text-align: center;
+    color:#fff;
+    width: 100%;
+}
+.result_main {
+    position: relative;
+    width: 100%;
+}.result_left,.result_right {
+    position: relative;
+    width: 50%;
+    float: left;
+    margin-bottom: 50px;
+}.result_left_main_heading {
+    width: 95%;
+    left: 2.5%;
+    position: relative;
+}.result_left_main_heading h2 {
+    font-size: 17px;
+    padding-left: 1%;
+    background-color: #172650;
+    color: #fff;
+    font-weight: lighter;
+}samp.left_heading {
+    float: right;
+    padding-right: 11px;
+}.redult_left_bottom {
+    position: relative;
+    width: 95%;
+    left: 2.5%;
+}.result_team_1 {
+    position: relative;
+    width: 100%;
+}table
+{
+	width:100%;	
+	margin-bottom:10px;
+}
+
+.b1,.b11{
+    text-align: left;
+    color: #172650;
+}
+.b11:hover {
+	text-decoration:underline;	
+	cursor:pointer;
+}
+td,th
+{
+	border-bottom:1px solid #ccc;	
+}.b11 a
+{
+    color: #183588;
+    font-weight: 500;
+}
+.match_info
+{
+	clear:both;	
+	margin-top:100px;
+}
+.f1 {
+    width: 16%;
+}
+
+
